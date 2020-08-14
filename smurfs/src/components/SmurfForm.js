@@ -13,8 +13,6 @@ const SmurfForm = (props) => {
     setSmurf({
       ...smurf,
       [e.target.name]: e.target.value,
-      [e.target.name]: e.target.value,
-      [e.target.name]: e.target.value,
     });
   };
 
