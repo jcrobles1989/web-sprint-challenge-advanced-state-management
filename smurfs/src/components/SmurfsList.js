@@ -15,7 +15,7 @@ const SmurfsList = (props) => {
         <div className="smurfs">
           {props.smurfs.map((smurf, index) => (
             <div className="card" key={index}>
-              <div className="cardInfo">
+              <div className="card-info">
                 <h2>{smurf.name}</h2>
                 <p>Age: {smurf.age}</p>
                 <p>Height: {smurf.height}</p>
